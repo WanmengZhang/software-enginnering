@@ -12,7 +12,7 @@ locations = [data["place"] for data in result_dict["temperature"]["data"]]
 temperatures = [data["value"] for data in result_dict["temperature"]["data"]]
 
 # Streamlit app
-st.title("Hong Kong Weather Data")
+st.title("Hong Kong Weather Data~")
 
 # Sidebar for location selection
 selected_location = st.sidebar.selectbox("Select a location", locations)
